@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tie Tac Toe</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <p id="game">Tic Tac Toe</p>
 
     <div id="mode">
-        <button id="button1" onclick="main(100)" value="multi">Multiplayer</button>
-        <button id="button2" onclick="main(200)" value="computer">vs Computer</button>
+      <button id="button1" onclick="main(100)" value="multi">
+        Multiplayer
+      </button>
+      <button id="button2" onclick="main(200)" value="computer">
+        vs Computer
+      </button>
     </div>
 
     <div id="main">
-        <div id="row1">
-            <p class="col1" onclick="main(0)"></p>
-            <p class="col1" onclick="main(1)"></p>
-            <p class="col1" onclick="main(2)"></p>
-        </div>
-        <div id="row2">
-            <p class="col1" onclick="main(3)"></p>
-            <p class="col1" onclick="main(4)"></p>
-            <p class="col1" onclick="main(5)"></p>
-        </div>
-        <div id="row3">
-            <p class="col1" onclick="main(6)"></p>
-            <p class="col1" onclick="main(7)"></p>
-            <p class="col1" onclick="main(8)"></p>
-        </div>
+      <div id="row1">
+        <p class="col1" onclick="main(0)"></p>
+        <p class="col1" onclick="main(1)"></p>
+        <p class="col1" onclick="main(2)"></p>
+      </div>
+      <div id="row2">
+        <p class="col1" onclick="main(3)"></p>
+        <p class="col1" onclick="main(4)"></p>
+        <p class="col1" onclick="main(5)"></p>
+      </div>
+      <div id="row3">
+        <p class="col1" onclick="main(6)"></p>
+        <p class="col1" onclick="main(7)"></p>
+        <p class="col1" onclick="main(8)"></p>
+      </div>
     </div>
 
     <p id="message">Start your game</p>
-    <div id="rg"><a id="reset" href="http://127.0.0.1:5500/index.html">Reset Game</a></div>
+    <div id="rg"><a id="reset" onclick="reset()">Reset Game</a></div>
 
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

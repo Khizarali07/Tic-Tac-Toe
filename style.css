@@ -1,62 +1,143 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-body {
-    background-color: rgb(85, 81, 81);
+@media (min-width:520px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(85, 81, 81);
+    }
+
+    #game {
+        color: black;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #mode {
+        display: flex;
+        justify-content: center;
+    }
+
+    #button1,
+    #button2 {
+        background-color: red;
+        color: white;
+        padding: 15px;
+        margin: 15px 15px;
+    }
+
+    #main {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .col1 {
+        display: flex;
+        width: 8rem;
+        height: 8rem;
+        background-color: yellowgreen;
+        margin: 10px;
+        border-radius: 20px;
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #message {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #rg {
+        display: flex;
+        justify-content: center;
+    }
+
+    #reset {
+        background-color: black;
+        color: white;
+        margin-top: 5px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    a {
+        text-decoration-line: none;
+    }
 }
 
-#game {
-    color: black;
-    text-align: center;
-    font-size: 30px;
-}
+@media (max-width:519px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
 
-#mode {
-display: flex;
-justify-content: center;
-}
-#button1,#button2 {
-    background-color: red;
-    color: white;
-    padding: 15px;
-    margin: 15px 15px;
-}
+    body {
+        background-color: rgb(85, 81, 81);
+    }
 
-#main {
-    display: flex;
-    justify-content:center;
-    margin-top: 25px;
-}
-.col1 {
-    display: flex;
-    width: 8rem;
-    height: 8rem;
-    background-color: yellowgreen;
-    margin: 10px;
-    border-radius: 20px;
-    font-size: 40px;
-    justify-content: center;
-    align-items: center;
-}
+    #game {
+        color: black;
+        text-align: center;
+        font-size: 30px;
+    }
 
-#message {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-}
-#rg {
-    display: flex;
-    justify-content:center;
-}
-#reset {
-    background-color: black;
-    color: white;
-    margin-top: 5px;
-    padding: 10px;
-    border-radius: 10px;
-}
-a {
-    text-decoration-line: none;
+    #mode {
+        display: flex;
+        justify-content: center;
+    }
+
+    #button1,
+    #button2 {
+        background-color: red;
+        color: white;
+        padding: 15px;
+        margin: 15px 15px;
+    }
+
+    #main {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .col1 {
+        display: flex;
+        width: 5rem;
+        height: 5rem;
+        background-color: yellowgreen;
+        margin: 10px;
+        border-radius: 20px;
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #message {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #rg {
+        display: flex;
+        justify-content: center;
+    }
+
+    #reset {
+        background-color: black;
+        color: white;
+        margin-top: 5px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    a {
+        text-decoration-line: none;
+    }
 }
